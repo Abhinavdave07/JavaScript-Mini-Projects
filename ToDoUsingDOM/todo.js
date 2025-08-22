@@ -10,7 +10,7 @@ btn.addEventListener("click",function(){
 let item = document.createElement("li");
 item.innerText = inp.value;
 ul.appendChild(item);
-
+//
 let delbtn = document.createElement("button");
 delbtn.innerText = "Delete";
 delbtn.classList.add("Delete");
