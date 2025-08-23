@@ -1,0 +1,40 @@
+*{
+    background: #efe9e9de;
+}
+
+body{
+    text-align: center;
+}
+
+#playbtn{
+    background-color: #36A9AE;
+    border: 1px solid #2A8387;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 1) 0 1px 1px;
+    color: white;
+    cursor: pointer;
+    /* flex: content;
+    justify-content: center; */
+    font-size: larger;
+    line-height: 100%;
+    margin: 0;
+    outline: 0;
+    padding: 11px 15px 12px;
+    text-align: center;
+    transition: box-shadow .05s ease-in-out,opacity .05s ease-in-out;
+    touch-action: manipulation;
+
+    width: 200px;
+    height: 70px;   
+}
+
+#playbtn:hover {
+  box-shadow: rgba(255, 255, 255, 0.3) 0 0 2px inset, rgba(0, 0, 0, 0.4) 0 1px 2px;
+  text-decoration: none;
+  transition-duration: .15s, .15s;
+}
+
+#score{
+    margin-left: 0;
+    position: absolute;
+}
